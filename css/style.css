@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC&family=Ubuntu:wght@300&display=swap');
+
+#spaceLinkL {
+  top: 14.30px;
+  left: 23px;
+  width: 114px;
+  position: fixed;
+}
+
+.Menu {
+  width: 1440px;
+  height: 144px;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  background-color: rgb(245, 240, 240);
+}
+
+#menu_BTNHome {
+  position: absolute;
+  top: 57px;
+  left: 359px;
+  font-size: 30px;
+  font-family: 'Noto Sans TC', sans-serif;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+#menu_BTNImages {
+  position: absolute;
+  top: 57px;
+  left: 681px;
+  font-size: 30px;
+  font-family: 'Noto Sans TC', sans-serif;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+#menu_BTNMissions {
+  position: absolute;
+  top: 57px;
+  left: 1013px;
+  font-size: 30px;
+  font-family: 'Noto Sans TC', sans-serif;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+a {
+  position: relative;
+  display: inline-block;
+  font-size: 2em;
+  font-weight: 800;
+  color: rgb(34, 98, 208);
+  overflow: hidden;
+  background: linear-gradient(to right, rgb(20, 87, 203), rgb(32, 104, 228) 50%, rgb(51, 51, 51) 50%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 100%;
+  background-position: 100%;
+  transition: background-position 275ms ease;
+}
+
+a:hover {
+  background-position: 0 100%;
+}
